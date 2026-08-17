@@ -44,5 +44,40 @@ enterprise-rag-system/
 - **Language:** Python 3.10+
 
 
-Ensure you have Python 3.10 or higher installed.
+## Getting Started
+## Prerequisites
+- Ensure you have Python 3.10 or higher installed.
 
+## Installation
+Clone the repository:
+
+```Bash
+git clone [https://github.com/Neelamjaahnavi/enterprise-rag-system.git](https://github.com/Neelamjaahnavi/enterprise-rag-system.git)
+cd enterprise-rag-system
+```
+Install dependencies:
+
+```Bash
+pip install -r requirements.txt
+```
+
+## Running the Pipeline
+Run the main execution script to build the vector store and run a sample query:
+
+```Bash
+python main.py
+```
+## Example Output
+Plaintext
+- [+] Loading and chunking document...
+- [+] Building vector store with ChromaDB...
+- [+] Initializing RAG Pipeline...
+
+- [?] Query: What is the equipment reimbursement limit?
+
+- [=] Response:
+Expenses for ergonomic office furniture and peripheral hardware are capped at $500 per calendar year.
+
+## License
+
+Distributed under the MIT License.
