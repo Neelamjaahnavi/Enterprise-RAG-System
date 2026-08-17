@@ -1,0 +1,5 @@
+Acme Corp Remote Work & Security Policy (2026):
+1. Work From Home Eligibility: Employees are eligible for up to 2 days of remote work per week after completing a 90-day probation period.
+2. Core Operational Hours: Core mandatory availability hours for all distributed engineering teams are 10:00 AM to 4:00 PM EST.
+3. Equipment Reimbursement: Expenses for ergonomic office furniture and peripheral hardware are capped at $500 per calendar year.
+4. Security & Access Control: All production infrastructure and internal API access must strictly go through the corporate VPN with multi-factor authentication (MFA) enabled.
